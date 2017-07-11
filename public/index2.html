@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Burwood Group Managed Services</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+    <link href="css/style2.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Open+Sans|Raleway|Inconsolata|Open+Sans" rel="stylesheet">
+</head>
+<body id="override">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img id="logo" src="./img/burwoodheader2C.png">
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                          <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Tickets
+                            <span class="caret"></span>
+                          </div>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Incident</a></li>
+                            <li><a href="#">Change</a></li>
+                            <li><a href="#">Problem</a></li>
+                            <li><a href="#">All</a></li>
+                          </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Devices</a></li>
+                    <li><a href="#">Contracts</a></li>
+                    <li><a href="#">All Events</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Open Ticket</a></li>
+                </ul>
+                <div id="user">Patrick Segura <span class="caret"></span></div>
+            </div>
+            <input id="search" placeholder="Search">
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div id="managed-services">Burwood Managed Services</div>
+
+    <!-- Page Content -->
+    <div class="container2">
+        <div class="row">
+            <div class="col-lg-4">
+                <!-- <div class="col-lg-1"></div> -->
+                <div class="col-lg-12 col-info-home" id="scroll-contain">
+                    <div id="twitter-contain-home">
+                        <div class="tweet">
+                            <div class="single-contain">
+                                <img class="logo-icon" width="30px" src="./img/bglogo3.png">
+                                <div class="tweet-info-home">
+                                    <div class="tweet-header">
+                                        <img class="news-img" src="./img/images1.png">
+                                        <p class=tweet-text><span style="font-size:8px">16 May 2017</span><br>Joanna Robinson of Burwood Group Recognized as One of CRN’s 2017 Women of the Channel <br><hr>
+                                        San Diego, CA, May 17, 2017 – Burwood Group, Inc., announced today that CRN® ... </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet">
+                            <div class="single-contain">
+                                <img class="logo-icon" width="30px" src="./img/bglogo3.png">
+                                <div class="tweet-info-home">
+                                    <div class="tweet-header">
+                                        <img class="news-img" src="./img/image2.png">
+                                        <p class=tweet-text><span style="font-size:8px">27 March 2017</span><br>Burwood Group Accelerates West Coast Growth with Opening of Newest Operations Center in San Diego<br><hr>
+                                        New Burwood Operations Center enables expansion into Southern California with a centralized location for Burwood Group IT managed services. SAN DIEGO, CA, USA ... </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet">
+                            <div class="single-contain">
+                                <img class="logo-icon" width="30px" src="./img/bglogo3.png">
+                                <div class="tweet-info-home">
+                                    <div class="tweet-header">
+                                        <p class=tweet-text>Burwood Group, Inc. Retweeted<br>Emily Cuny‏ @EmilyCuny  Jul 1<br><hr>
+                                        #SDWAN: Driving factors, benefits, <br>and a detailed look at how it works. Watch here:</p>
+                                        <img class="tweet-img" src="./img/tweet1.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <!-- <img id="marketing-contain" src="./img/marketing_page.png"> -->
+            </div>
+            <div class="col-lg-4">
+                <div class="col-lg-12" id="scroll-contain">
+                    <div id="twitter-contain2-home">
+                        <div class="tweet">
+                            <div class="single-contain">
+                                <img class="logo-icon" width="30px" src="./img/bglogo3.png">
+                                <div class="tweet-info-home">
+                                    <div class="tweet-header">
+                                        <p class=tweet-text>Burwood Group, Inc. Retweeted<br>Emily Cuny‏ @EmilyCuny  Jul 1<br><hr>
+                                        Work hard, play hard. We're thrilled to be named to @FortuneMagazine list of 100 Best Workplaces for Millennials! http://ow.ly/aRi530d4oEo</p>
+                                        <img class="tweet-img" src="./img/image3.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet">
+                            <div class="single-contain">
+                                <img class="logo-icon" width="30px" src="./img/bglogo3.png">
+                                <div class="tweet-info-home">
+                                    <div class="tweet-header">
+                                        <p class=tweet-text>Burwood Group, Inc. Retweeted<br>Emily Cuny‏ @EmilyCuny  Jul 1<br><hr>
+                                        #SDWAN: Driving factors, benefits, <br>and a detailed look at how it works. Watch here:</p>
+                                        <img class="tweet-img" src="./img/tweet1.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet">
+                            <div class="single-contain">
+                                <img class="logo-icon" width="30px" src="./img/bglogo3.png">
+                                <div class="tweet-info-home">
+                                    <div class="tweet-header">
+                                        <p class=tweet-text>Burwood Group, Inc. Retweeted<br>Emily Cuny‏ @EmilyCuny  Jul 1<br><hr>
+                                        #SDWAN: Driving factors, benefits, <br>and a detailed look at how it works. Watch here:</p>
+                                        <img class="tweet-img" src="./img/tweet1.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-7 evAll"></div>
+        </div>
+
+
+        <div id="chart_div"></div>
+        <div id="wheel-tab" class="tabs">Explore Devices</div>
+        <div id="contract-contain">
+            <p id="subscription-details">Service Subscriptions</p><p style="font-size:12px; text-decoration:none; text-align: center">Contract Number: MS-TRUE-0045</p><p class="subscription-info">Telepresence: 30 Devices</p><p class="subscription-info" style="margin-left:140px">Contract Start Date: 03/04/2016</p><p class="subscription-info" style="margin-left:120px">Contract Name: Ross Rehart</p>
+            <br><p class="subscription-info" style="clear:left; margin-left:15px">Storage: 14 Devices</p><p class="subscription-info" style="margin-left:160px">Contract End Date: 03/04/2019</p><p class="subscription-info" style="margin-left:70px">Contract Email: rrehart@burwood.com</p>
+        </div>
+        <div id="report-tab" class="tabs">Reports</div>
+
+
+
+
+        <div id="noc">NOC : 312-592-8387</div>
+        <div id="burwood"></div>
+        <div id="health-modal">Overall Health: 93%<br>Total Open Tickets: 77<br>Total Events: 23</div>
+        <!-- <div id="directions">Services</br>Devices</div> -->
+        <!-- <div id="left-arrow" class="arrows"></div> -->
+        <!-- <div id="right-arrow" class="arrows"></div> -->
+        <div id="video"></div>
+        <!-- <div id="cover-contain">
+            <div class="cover" id="cover1" data-vid="https://www.youtube.com/embed/TYZbBgsYeeA?autoplay=1"></div>
+            <div class="cover" id="cover2" data-vid="https://www.youtube.com/embed/guoPtyTezMI?autoplay=1"></div>
+            <div class="cover" id="cover3" data-vid="https://www.youtube.com/embed/cUNziWG5XeQ?autoplay=1"></div>
+        </div> -->
+    </div>
+    <!-- /.container -->
+
+    <div id="chartdiv"></div>
+    <div id="chartdiv2"></div>
+    <div id="open-tickets">Open Tickets By Priority</div>
+    <div id="open-events">Events By Priority</div>
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="js/d3graph2.js"></script>
+    <script src="js/googlechart.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

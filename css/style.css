@@ -1,0 +1,156 @@
+body {
+    background-image: url('../img/leaveburwood2.jpg');
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+    font-size: 16px;
+    /*background-color: #396346;*/
+    /*background-color: #777;*/
+}
+circle,
+path {
+  cursor: pointer;
+}
+
+circle {
+  fill: none;
+  pointer-events: all;
+}
+#override .navbar-inverse {
+    background-color: transparent;
+    color: white;
+}
+
+#override .navbar-inverse .navbar-nav>li>a {
+    /*color: #2f7249;*/
+    color: white;
+}
+
+#override .navbar-inverse .navbar-brand {
+    /*color: #2f7249;*/
+    color: white;
+}
+
+#override .navbar-inverse {
+    /*border-color: #2f7249;*/
+    border: none;
+}
+#override .container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+#logo {
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 250px;
+}
+#override .navbar-nav {
+    margin-left: 25px;
+}
+#center-logo {
+    /*background: url("../img/bglogo.png") no-repeat center;*/
+    background: url("../img/cloud2.png") no-repeat center;
+    background-size: contain;
+    height: 350px;
+    width: 100%;
+    margin-top: 25px;
+    opacity: 0;
+    transition: all 2s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 21;
+}
+#back-logo {
+    background: url("../img/greencloud.png") no-repeat center;
+    background-size: contain;
+    height: 350px;
+    margin-top: 25px;
+    opacity: 1;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#logo-contain {
+    position: relative;
+}
+#nav-line {
+    height: 1px;
+    /*background-color: #2f7249;*/
+    /*background-color: white;*/
+    width: 90%;
+    margin-left: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+}
+.line-link {
+    border-bottom: 1px solid white;
+    text-align: left;
+    color: white;
+    width: 45%;
+    width: 0%;
+    opacity: 0;
+    transition: all 1s ease-out;
+    height: 25px;
+    overflow: hidden;
+}
+.link-left {
+    float: right;
+    clear: both;
+    margin-right: 100px;
+}
+.link-right {
+    float: left;
+}
+#tickets {
+    margin-top: 135px;
+    /*width: 0%;
+    opacity: 0;
+    transition: all 1s ease-out;
+    height: 25px;
+    overflow: hidden;*/
+}
+#tickets-text {
+    transition: all 1s ease;
+    margin-top: 30px;
+}
+#reports-text {
+    transition: all 1s ease;
+    margin-top: 30px;
+}
+#devices-text {
+    transition: all 1s ease;
+    margin-top: 30px;
+}
+#reports {
+    margin-top: 65px;
+}
+#devices {
+    margin-top: 65px;
+    margin-right: -400px;
+}
+#override .line-contain {
+    position: absolute;
+    width: 50%;
+    left: 0;
+}
+#line-inner-contain {
+    width: 100%;
+    position: relative;
+}
+#draw-canvas {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 240px;
+    margin-top: 314px;
+    /*background-color: transparent;*/
+}
+svg {
+    margin-left: 25%;
+}

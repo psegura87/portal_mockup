@@ -1,0 +1,192 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "Citrix Management Services",
+   "description": "- Monitoring and Notification of Events<br>- Access to BMS Customer Portal<br>- Case Tracking<br>- Remote Problem ID & Troubleshooting<br>- NetScaler<br>- Citrix Environment Management",
+   "level": 1,
+   "children": [
+    {
+     "name": "MS-CXF-PING",
+     "type": "Storefront Server",
+     "size": 15,
+     "discount": ".15",
+     "unit_price": "205.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035112", "issue": "Netflow issues", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035113", "issue": "Power supply (Switch 1)", "time": "03/03/17 16:43:44", "size": 1},
+      {"name": "INC0035114", "issue": "Feature update to Windows 10 Enterprise, version 1703 unable to install", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035115", "issue": "CHIL-CORE-01: Trap Received: LinkDown:", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035116", "issue": "Bandwidth usage exceeded threshold", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    },{
+     "name": "MS-SVR-PING",
+     "type": "Server",
+     "size": 15,
+     "discount": ".50",
+     "unit_price": "35.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035114", "issue": "Feature update to Windows 10 Enterprise, version 1703 unable to install", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035115", "issue": "CHIL-CORE-01: Trap Received: LinkDown:", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035116", "issue": "Bandwidth usage exceeded threshold", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    },{
+     "name": "MS-RTR-GOLD",
+     "type": "Router",
+     "size": 15,
+     "discount": ".05",
+     "unit_price": "275.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035114", "issue": "Feature update to Windows 10 Enterprise, version 1703 unable to install", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035116", "issue": "Bandwidth usage exceeded threshold", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    },{
+     "name": "MS-UCX-BRNZ",
+     "type": "UC Software",
+     "size": 15,
+     "discount": ".04",
+     "unit_price": "$52.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035116", "issue": "Bandwidth usage exceeded threshold", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    },{
+     "name": "MS-UCM-SLVR",
+     "type": "UC Manager",
+     "size": 15,
+     "discount": ".60",
+     "unit_price": "$25.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035114", "issue": "Feature update to Windows 10 Enterprise, version 1703 unable to install", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035115", "issue": "CHIL-CORE-01: Trap Received: LinkDown:", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035116", "issue": "Bandwidth usage exceeded threshold", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    }
+   ]
+  },{
+   "name": "Network Management Services",
+   "description": "- Monitoring and Notification of Events<br>- Access to BMS Customer Portal<br>- Case Tracking<br>- Remote Problem Identification and Troubleshooting<br>- Moves, Adds, Changes, Deletes<br>- Asset Tracking<br>- Annual Operations and Communications Reviews",
+   "level": 1,
+   "children": [
+    {
+     "name": "MS-SVR-GOLD",
+     "type": "Server",
+     "size": 10,
+     "discount": ".15",
+     "unit_price": "205.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035112", "issue": "Netflow issues", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035113", "issue": "Power supply (Switch 1)", "time": "03/03/17 16:43:44", "size": 1},
+      {"name": "INC0035114", "issue": "Feature update to Windows 10 Enterprise, version 1703 unable to install", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035115", "issue": "CHIL-CORE-01: Trap Received: LinkDown:", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035116", "issue": "Bandwidth usage exceeded threshold", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    },{
+     "name": "MS-CXF-PING",
+     "type": "Storefront Server",
+     "size": 15,
+     "discount": ".15",
+     "unit_price": "205.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035112", "issue": "Netflow issues", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035113", "issue": "Power supply (Switch 1)", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035116", "issue": "Bandwidth usage exceeded threshold", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    }
+   ]
+  },{
+   "name": "Server Management Services",
+   "description": "- Monitoring and Notification of Events<br>- Access to BMS Customer Portal<br>- Case Tracking<br>- Remote Problem Identification and Troubleshooting<br>- Moves, Adds, Changes, Deletes<br>- OS Service Management<br>- Asset Tracking<br>- Backup Management",
+   "level": 1,
+   "children": [
+    {
+     "name": "MS-SVR-GOLD",
+     "type": "Server",
+     "size": 10,
+     "discount": ".15",
+     "unit_price": "205.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035112", "issue": "Netflow issues", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035113", "issue": "Power supply (Switch 1)", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035114", "issue": "Feature update to Windows 10 Enterprise, version 1703 unable to install", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035115", "issue": "CHIL-CORE-01: Trap Received: LinkDown:", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035116", "issue": "Bandwidth usage exceeded threshold", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    }
+   ]
+  },{
+   "name": "Storage Management Services",
+   "description": "- Monitoring and Notification of Events<br>- Access to BMS Customer Portal<br>- Case Tracking<br>- Remote Problem ID & Troubleshooting<br>- Storage Environment Management",
+   "level": 1,
+   "children": [
+    {
+     "name": "MS-CXF-GOLD",
+     "type": "Storefront Server",
+     "size": 10,
+     "discount": ".15",
+     "unit_price": "205.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035112", "issue": "Netflow issues", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035113", "issue": "Power supply (Switch 1)", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035114", "issue": "Feature update to Windows 10 Enterprise, version 1703 unable to install", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    },{
+     "name": "MS-CXF-PING",
+     "type": "Storefront Server",
+     "size": 10,
+     "discount": ".15",
+     "unit_price": "205.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035112", "issue": "Netflow issues", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035113", "issue": "Power supply (Switch 1)", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035114", "issue": "Feature update to Windows 10 Enterprise, version 1703 unable to install", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035115", "issue": "CHIL-CORE-01: Trap Received: LinkDown:", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035116", "issue": "Bandwidth usage exceeded threshold", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    },{
+     "name": "MS-CXF-BRNZ",
+     "type": "Storefront Server",
+     "size": 15,
+     "discount": ".15",
+     "unit_price": "205.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035112", "issue": "Netflow issues", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035113", "issue": "Power supply (Switch 1)", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035114", "issue": "Feature update to Windows 10 Enterprise, version 1703 unable to install", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035115", "issue": "CHIL-CORE-01: Trap Received: LinkDown:", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035116", "issue": "Bandwidth usage exceeded threshold", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    }
+   ]
+  },{
+   "name": "Telepresence Management Services",
+   "description": "- Monitoring and Notification of Events<br>- Incident Resolution<br>- Access to BMS Customer Portal<br>- Case Tracking<br>- Remote Problem Identification and Troubleshooting<br>- Telepresence Environment Management",
+   "level": 1,
+   "children": [
+    {
+     "name": "MS-SVR-GOLD",
+     "type": "Server",
+     "size": 10,
+     "discount": ".15",
+     "unit_price": "205.00",
+     "level": 2,
+     "children": [
+      {"name": "INC0035112", "issue": "Netflow issues", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035113", "issue": "Power supply (Switch 1)", "time": "03/03/17 16:43:44", "level": 3, "size": 1},
+      {"name": "INC0035114", "issue": "Feature update to Windows 10 Enterprise, version 1703 unable to install", "time": "03/03/17 16:43:44", "level": 3, "size": 1}
+     ]
+    }
+   ]
+  }
+ ]
+}
