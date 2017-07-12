@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const path = require ('path')
 
-
+let port = process.env.PORT || 3000;
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname+'/public/index2.html'))
 })
@@ -21,6 +21,6 @@ app.get('/flare', function (req, res) {
     res.sendFile(path.join(__dirname+'/flare.json'))
 })
 
-app.listen(3000, function() {
+app.listen(port, function() {
     console.log("Listening on prt 3000")
 })
