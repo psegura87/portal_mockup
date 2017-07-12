@@ -13,6 +13,10 @@ body {
     padding-top: 70px;
     color: white;
 }
+/*input {
+    font-family:FontAwesome;
+    padding-left: 5px;
+}*/
 circle,
 path {
   cursor: pointer;
@@ -221,7 +225,7 @@ hr {
     top: 0;
     /*margin-left: 43%;*/
     width: 100%;
-    background-color: #ddd;
+    background-color: #eee;
     margin-top: 50px;
     text-align: center;
     font-size: 14px;
