@@ -1,0 +1,25 @@
+{
+  "name": "portal_mockup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jquery.iframetracker": "^1.1.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psegura87/portal_mockup.git"
+  },
+  "author": "psegura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psegura87/portal_mockup/issues"
+  },
+  "homepage": "https://github.com/psegura87/portal_mockup#readme"
+}
