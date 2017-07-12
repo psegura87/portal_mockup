@@ -12,7 +12,7 @@ var g = svg.append("g");
     // .call(twizzle, 20000);
 
 var path = g.append("path")
-    .attr("d", d3.svg.symbol().type("cross").size(10000))
+    .attr("d", d3.svg.symbol().type("cross").size(600))
     .attr("class", "paths")
     .call(plonk, 2500);
 
@@ -29,7 +29,7 @@ function twizzle(selection, duration) {
 function plonk(selection, duration) {
   selection.transition()
       .duration(duration)
-      .style("stroke-width", "5px")
+      .style("stroke-width", "1px")
     .transition()
       .style("stroke-width", "0px");
 
