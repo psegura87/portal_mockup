@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/test', function (req, res) {
-    res.sendFile(path.join(__dirname+'/public/test.html'))
+    res.sendFile(path.join(__dirname+'/public/index.html'))
 })
 
 app.get('/login', function (req, res) {
