@@ -614,15 +614,35 @@ textarea:focus, input:focus{
     left: 0;
     top: 0;
     margin-left: 555px;
-    margin-top: 140px;
+    margin-top: 100px;
     width: 170px;
     font-size: 12px;
     line-height: 20px;
     background-color: rgba(0,0,0,.1);
     border-radius: 5px 5px 5px 5px;
-    padding-top: 10px;
+    border: .5px solid rgba(255,255,255, .5);
+    /*padding-top: 10px;*/
     padding-bottom: 10px;
+    overflow: hidden;
+    height: 20px;
+    cursor: pointer;
+    z-index: 100;
+    transition: all .5s ease;
 
+}
+#center-logo {
+    background-image: url('../img/bglogo3.png');
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 565px;
+    margin-top: 170px;
+    opacity: .3;
+    /*z-index: 1000000;*/
+    background-size: contain;
+    transition: all .5s ease;
 }
 .dropdown {
     margin-top: 15px;

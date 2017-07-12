@@ -42,11 +42,23 @@ $(document).ready(function() {
 
     $('svg').on('click', resetHover);
 
-    $('.paths, #burwood').on('mouseenter', function() {
-        $('#health-modal').css('opacity', '1');
-    })
-    $('.paths, #burwood').on('mouseleave', function() {
-        $('#health-modal').css('opacity', '0');
+    // $('.paths, #burwood').on('mouseenter', function() {
+    //     $('#health-modal').css('opacity', '1');
+    // })
+    // $('.paths, #burwood').on('mouseleave', function() {
+    //     $('#health-modal').css('opacity', '0');
+    // })
+    var closed = true;
+
+    $('#contract-text').on('click', function() {
+        if (closed) {
+            $(this).css({'height': '275px', 'padding-top': '10px', 'border': 'none'});
+            $('#center-logo').css('opacity', '0');
+        } else {
+            $(this).css({'height': '20px', 'padding-top': '0px', 'border': '.5px solid rgba(255,255,255, .5)'});
+            $('#center-logo').css('opacity', '.3');
+        }
+        closed = !closed;
     })
 
     var checked = false;
